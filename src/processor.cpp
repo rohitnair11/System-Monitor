@@ -2,7 +2,7 @@
 #include "linux_parser.h"
 using std::string;
 
-// TODO: Return the aggregate CPU utilization
+// Return the aggregate CPU utilization
 float Processor::Utilization() {
   long idle = LinuxParser::IdleJiffies();
   string temp;
